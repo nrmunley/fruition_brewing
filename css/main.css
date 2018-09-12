@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Helvetica", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
+  font-family: "Adobe Carlson Pro", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
   line-height: 200%;
@@ -14,21 +14,51 @@ html {
   box-sizing: inherit;
 }
 
-.wrapper {
-  display: grid;
-}
-
-.topnav {
-  background-color: #56534D;
-  height: 140px;
-}
-
-.topnav img {
-  padding-left: 120px;
-  padding-top: 20px;
-}
-
-.placeholder {
+.background {
+  background-image: url("../images/landing_background.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  justify-content: center;
+  margin: auto;
   text-align: center;
-  padding-top: 200px;
+}
+
+.logo {
+  padding-top: 100px;
+}
+
+.message p {
+  color: white;
+  font-size: 36px;
+}
+
+.address {
+  padding-bottom: 60px;
+}
+
+.address a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.address a:hover {
+  color: #89934A;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  padding: 16px 30px;
+  background-color: transparent;
+  border: #89934A;
+  border-width: 4px;
+  border-radius: 10px;
+  border-style: solid;
+  font-size: 36px;
+}
+
+.button a:hover {
+  background-color: #89934A;
 }
