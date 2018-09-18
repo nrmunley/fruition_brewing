@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Adobe Caslon Pro", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
+  font-family: "adobe caslon pro", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
   color: #333333;
@@ -81,6 +81,12 @@ html {
   .message {
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .message p {
+    font-size: 28px;
+  }
+  .address a {
+    font-size: 18px;
   }
 
 }
