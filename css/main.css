@@ -59,6 +59,24 @@ html {
   font-size: 36px;
 }
 
-.button a:hover {
-  background-color: #89934A;
+
+@media screen and (max-width: 500px) {
+  .button a {
+    font-size: 14px;
+  }
+  .button{
+    padding-bottom: 60px;
+  }
+  .logo{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .background {
+    height: 100%;
+    width: auto;
+  }
+
 }
