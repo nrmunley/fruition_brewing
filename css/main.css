@@ -3,7 +3,6 @@ html {
   font-family: "Adobe Caslon Pro", "Lato", "Lucida Grande", "Lucida Sans Unicode", "Tahoma",
     "Sans-Serif";
   font-weight: normal;
-  line-height: 200%;
   color: #333333;
   margin: none;
 }
@@ -65,18 +64,19 @@ html {
     font-size: 14px;
   }
   .button{
-    padding-bottom: 60px;
+    padding-bottom: 300px;
   }
   .logo{
     padding-left: 10px;
     padding-right: 10px;
   }
-  .logo img {
-    width: 100%;
-  }
   .background {
     height: 100%;
     width: auto;
+  }
+  .message {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 }
